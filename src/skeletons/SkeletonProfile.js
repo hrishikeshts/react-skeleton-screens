@@ -1,6 +1,7 @@
 import React from "react";
 import SkeletonElement from "./SkeletonElement";
 import "./skeleton.css";
+import Shimmer from "./Shimmer";
 
 const SkeletonProfile = () => {
     return (
@@ -15,6 +16,7 @@ const SkeletonProfile = () => {
                     <SkeletonElement type='text' />
                 </div>
             </div>
+            <Shimmer />
         </div>
     );
 };

@@ -11,7 +11,7 @@ const User = () => {
             );
             const data = await res.json();
             setProfile(data);
-        }, 2000);
+        }, 0);
     });
 
     return (
